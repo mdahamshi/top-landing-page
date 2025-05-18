@@ -13,7 +13,7 @@
     --sb-information-header: #1f2937;
     --sb-quote-section-bg: #e5e7eb;
     --sb-quote-text: #1f2937;
-    --sb-max-width: 900px;
+    --sb-max-width: 850px;
 }
 .sb-border-radius-4px {
     border-radius: 4px;;
@@ -108,8 +108,7 @@
     color: var(--sb-quote-text);
     font-size: 36px;
     font-style: italic;
-    font-weight: lighter;
-    padding: 28px;
+    font-weight: 200;
 }
 .quote-writer {
     align-self: flex-end;
