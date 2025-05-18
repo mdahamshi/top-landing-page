@@ -79,14 +79,12 @@
     padding: 32px;
 }
 .section-2 {
-    height: 64px;
-    background-color: green;
-
+    background-color: var(--sb-quote-section-bg);
+    justify-content: center;
+    padding: 32px;
 }
 .section-3 {
-    height: 64px;
-    background-color: yellow;
-
+    padding: 32px;
 }
 .section-1 h2 {
     color: var(--sb-information-header);
@@ -96,7 +94,40 @@
 .item-list {
     text-align: center;
 }
-.item {
+.quote {
+    /* margin: auto; */
+    padding: 48px;
+}
+.quote-text {
+    color: var(--sb-quote-text);
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    padding: 28px;
+}
+.quote-writer {
+    align-self: flex-end;
+    margin-right: 64px;
+}
+.call-to-action {
+    justify-content: space-around;
+    background-color: var(--sb-button-color);
+    margin: auto;
+    border-radius: 4px;
+    padding: 32px;
+    color: white;
+}
+.call-to-action button {
+    display: block;
+    background-color: var(--sb-button-color);
+    color: white;
+    border-color: white;
+    border-radius: 4px;
+    padding: 8px 16px;
+    
+}
+.call-to-action-text {
+    align-items: flex-start;
 }
 .square {
     width: 150px;
